@@ -1,0 +1,21 @@
+.text{
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family:"Roboto", sans-serif;
+  /* font-size: 1.563rem; */
+  flex-direction: column;
+  color: white;
+}
+
+.raya{
+  border: 0;
+  border-top: 0.125rem solid #999; 
+  border-bottom: 0.125rem solid #333;
+  width: 95%;
+}
+.informacion{
+  font-size: clamp(0.5rem, 2vw, 1.5rem);
+}

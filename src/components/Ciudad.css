@@ -1,0 +1,152 @@
+.container {
+  width: 50rem;
+  height: 38rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+
+.glass {
+  margin-top: 4.375rem;
+  padding: 1.563rem;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 0.625;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.drop-1 {
+  height: 6.25rem;
+  width: 6.25rem;
+  top: -1.875rem;
+  left: -2.5rem;
+  /* z-index: -1; */
+}
+.drop-2 {
+  height: 9.375rem;
+  width: 9.375rem;
+  bottom: -3.125rem;
+  left: -3.125rem;
+  /* z-index: -1; */
+}
+.drop-3 {
+  height: 12.5rem;
+  width: 12.5rem;
+  bottom: -3.125rem;
+  right: -6.25rem;
+  z-index: 0;
+}
+.drop-4 {
+  height: 7.5rem;
+  width: 7.5rem;
+  top: -2.5rem;
+  right: 0.625rem;
+  z-index: 2;
+}
+
+h1{
+  margin-bottom: 0.938rem;
+  color: white;
+  text-decoration: none !important;
+  /* text-transform: uppercase; */
+  border-bottom: 2px solid white;
+  padding-bottom: 0.625rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+}
+
+.divtemperature{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.temp{
+  font-size: 9.375rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 14.375rem;
+  color: white;
+  /* color: black; */
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+
+#temperature p {
+  text-align: left;
+  font-size: 9.375rem;
+}
+
+#temperature p {
+  font-size: 18.75rem;
+  margin-top: -0.625rem;
+  margin-left: -0.625rem;
+  margin-bottom: 0;
+  text-align: left;  
+  font-weight: 500;
+  line-height: 14.375rem;
+
+}
+
+.grad {
+  vertical-align: baseline;
+  position: relative;
+  top: -4.688rem;
+  line-height: 0;
+  font-size: 2.5rem;
+  font-weight: 400;    
+}
+
+#temperature h5 {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+  margin-top: 0;
+  font-weight: 300;
+
+}
+
+.clima{
+  margin-top: -3.125rem;
+  font-size: 1.875rem;
+  /* text-align: center; */
+  align-items: center;
+  font-weight: 500;
+  vertical-align: middle;
+  color: white;
+  /* color: black; */
+  font-family: "Roboto", sans-serif;
+
+}
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
